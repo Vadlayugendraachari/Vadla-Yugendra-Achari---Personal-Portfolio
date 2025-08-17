@@ -25,7 +25,7 @@ const projects = [
         description:
             'A top-tier personal portfolio with dark/light mode, smooth scroll, glassmorphism UI, and animated sections.',
         image: '/yugi portfolio.png',
-        github: 'https://github.com/Vadlayugendraachari/portfolio',
+        github: 'https://github.com/Vadlayugendraachari/Vadla-Yugendra-Achari---Personal-Portfolio',
         demo: '#',
     },
 ]
