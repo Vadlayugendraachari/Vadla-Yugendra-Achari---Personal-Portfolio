@@ -46,7 +46,7 @@ export const Navbar = ({ theme, setTheme }: NavbarProps) => {
                 </ul>
 
                 <div className="flex items-center gap-3">
-                    <a href="public/vadla yugendra achari resume.pdf" className="btn-ghost hidden sm:inline-flex" target="_blank" rel="noreferrer">Resume</a>
+                    <a href="https://drive.google.com/file/d/19yS-N30dXTZjtBCbYVo1eRSK9PTdNp36/view?usp=drivesdks" className="btn-ghost hidden sm:inline-flex" target="_blank" rel="noreferrer">Resume</a>
                     <button
                         aria-label="Toggle theme"
                         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}

@@ -7,17 +7,17 @@ const certs: Cert[] = [
     {
         name: 'HTML, CSS, and Javascript for Web Developers',
         issuer: 'Coursera',
-        proofUrl: 'public/html css js coursera.pdf',
+        proofUrl: 'https://coursera.org/share/1d7987855f9e4d027b6fd77426d3f265',
     },
     {
         name: 'Introduction to Front-End Development',
         issuer: 'Coursera',
-        proofUrl: 'public/introduction to frontend development.pdf',
+        proofUrl: 'https://coursera.org/share/3a5547bba970ce628a6d609ee7926929',
     },
     {
         name: 'Open FPGA Tools Exploration',
         issuer: 'IIT Dharwad',
-        proofUrl: 'public/iit dharwad certificate.pdf',
+        proofUrl: 'https://drive.google.com/file/d/1d88rzY17sEZBY8ldzPX1LRlbCZIB5EHp/view?usp=drivesdk',
     },
 ]
 
