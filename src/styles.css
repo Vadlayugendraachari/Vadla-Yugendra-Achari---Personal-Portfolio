@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+:root {
+    --glass-bg: rgba(15, 23, 42, 0.6);
+    --glass-border: rgba(148, 163, 184, 0.2);
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+@layer components {
+    .glass {
+        background: linear-gradient(135deg,
+                rgba(255, 255, 255, 0.12),
+                rgba(255, 255, 255, 0.04));
+        border: 1px solid var(--glass-border);
+        backdrop-filter: saturate(160%) blur(8px);
+    }
+
+    .section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .section-title {
+        @apply text-3xl sm:text-4xl font-bold tracking-tight;
+    }
+
+    .section-subtitle {
+        @apply text-slate-500 dark:text-slate-400 mt-2;
+    }
+
+    .card {
+        @apply glass rounded-2xl shadow-soft hover:shadow-xl transition-shadow duration-300;
+    }
+
+    .btn-primary {
+        @apply inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-5 py-3 rounded-xl shadow-soft transition-colors duration-200;
+    }
+
+    .btn-ghost {
+        @apply inline-flex items-center gap-2 border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800 px-5 py-3 rounded-xl transition-colors duration-200;
+    }
+
+    /* --- Premium UI utilities --- */
+    .btn-outline {
+        @apply inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors duration-200;
+    }
+
+    .btn-secondary {
+        @apply inline-flex items-center gap-2 bg-slate-900/80 dark:bg-white/10 text-white dark:text-slate-100 hover:bg-slate-900 dark:hover:bg-white/20 px-5 py-3 rounded-xl transition-colors duration-200;
+    }
+
+    .focus-ring {
+        @apply focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary-500/30 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950 rounded-xl;
+    }
+
+    .badge {
+        @apply inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700;
+    }
+
+    .chip {
+        @apply inline-flex items-center gap-1 px-2.5 py-1 text-xs rounded-full bg-gradient-to-r from-primary-600/10 to-fuchsia-600/10 text-primary-700 dark:text-primary-300 border border-primary-600/20;
+    }
+
+    .gradient-text {
+        background: linear-gradient(90deg, #3b82f6 0%, #a855f7 50%, #ec4899 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .gradient-bg {
+        background-image: radial-gradient(1200px 600px at 90% -10%, rgba(59, 130, 246, 0.25), rgba(0, 0, 0, 0)),
+            radial-gradient(800px 400px at 10% -20%, rgba(168, 85, 247, 0.25), rgba(0, 0, 0, 0));
+    }
+
+    .glass-strong {
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.06));
+        border: 1px solid var(--glass-border);
+        backdrop-filter: saturate(180%) blur(14px);
+    }
+
+    .hover-lift {
+        transition: transform 300ms ease, box-shadow 300ms ease;
+    }
+
+    .hover-lift:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 40px rgba(2, 6, 23, 0.12);
+    }
+
+    .hover-tilt {
+        transition: transform 300ms ease;
+        transform-style: preserve-3d;
+    }
+
+    .hover-tilt:hover {
+        transform: perspective(800px) rotateX(2deg) rotateY(-2deg) translateY(-2px);
+    }
+
+    .reveal-up {
+        animation: fadeInUp 600ms ease both;
+    }
+}
+
+/* --- Premium UI utilities --- */
+.btn-outline {
+    @apply inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors duration-200;
+}
+
+.btn-secondary {
+    @apply inline-flex items-center gap-2 bg-slate-900/80 dark:bg-white/10 text-white dark:text-slate-100 hover:bg-slate-900 dark:hover:bg-white/20 px-5 py-3 rounded-xl transition-colors duration-200;
+}
+
+.focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary-500/30 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950 rounded-xl;
+}
+
+.badge {
+    @apply inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700;
+}
+
+.chip {
+    @apply inline-flex items-center gap-1 px-2.5 py-1 text-xs rounded-full bg-gradient-to-r from-primary-600/10 to-fuchsia-600/10 text-primary-700 dark:text-primary-300 border border-primary-600/20;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #3b82f6 0%, #a855f7 50%, #ec4899 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-bg {
+    background-image: radial-gradient(1200px 600px at 90% -10%, rgba(59, 130, 246, 0.25), rgba(0, 0, 0, 0)),
+        radial-gradient(800px 400px at 10% -20%, rgba(168, 85, 247, 0.25), rgba(0, 0, 0, 0));
+}
+
+.glass-strong {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.06));
+    border: 1px solid var(--glass-border);
+    backdrop-filter: saturate(180%) blur(14px);
+}
+
+.hover-lift {
+    transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(2, 6, 23, 0.12);
+}
+
+.hover-tilt {
+    transition: transform 300ms ease;
+    transform-style: preserve-3d;
+}
+
+.hover-tilt:hover {
+    transform: perspective(800px) rotateX(2deg) rotateY(-2deg) translateY(-2px);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
