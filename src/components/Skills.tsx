@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import { FiCode, FiCpu, FiDatabase, FiGitBranch, FiPackage } from 'react-icons/fi'
-import { FaGithub, FaLinux } from 'react-icons/fa'
+import { FiCode, FiCpu, FiDatabase, FiGitBranch, FiPackage, FiCloud } from 'react-icons/fi'
+import { FaGithub, FaLinux, FaNetworkWired, FaServer } from 'react-icons/fa'
 
 const languages = [
     { name: 'Python', icon: <FiCpu /> },
@@ -16,6 +16,8 @@ const skills = [
     { name: 'Git', icon: <FiGitBranch /> },
     { name: 'GitHub', icon: <FaGithub /> },
     { name: 'Linux (Ubuntu, Nobara OS)', icon: <FaLinux /> },
+    { name: 'Networking', icon: <FaNetworkWired /> },
+    { name: 'VMs', icon: <FaServer /> },
 ]
 
 
