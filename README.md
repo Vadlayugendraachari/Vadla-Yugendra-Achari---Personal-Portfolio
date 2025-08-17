@@ -1,4 +1,9 @@
+
 # Vadla Yugendra Achari — Personal Portfolio
+
+## 🌐 Live Portfolio
+
+[https://vadla-yugendra-achari-personal-port.vercel.app/](https://vadla-yugendra-achari-personal-port.vercel.app/)
 
 Modern portfolio built with React, Vite, Tailwind CSS, Framer Motion, and TypeScript. Fully responsive with dark/light mode, smooth scroll, glassmorphism cards, and animated sections.
 
