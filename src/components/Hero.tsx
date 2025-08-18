@@ -15,7 +15,7 @@ export const Hero = () => {
                         and delightful user experiences.
                     </p>
                     <div className="mt-6 flex items-center gap-4">
-                        <a href="https://drive.google.com/file/d/19yS-N30dXTZjtBCbYVo1eRSK9PTdNp36/view?usp=drivesdk" target="_blank" rel="noreferrer" className="btn-primary">
+                        <a href="https://drive.google.com/file/d/1oKsF8bDcCSCkeoCNpeCF70g2w4n3qJHJ/view?usp=drivesdk" target="_blank" rel="noreferrer" className="btn-primary">
                             <FiDownloadCloud /> Download Resume
                         </a>
                         <a href="https://github.com/Vadlayugendraachari" target="_blank" rel="noreferrer" className="btn-ghost">
