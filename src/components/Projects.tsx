@@ -15,7 +15,7 @@ const projects = [
         title: 'Househunt',
         stack: ['React', 'MUI', 'Node.js', 'MongoDB', 'JWT', 'Multer'],
         description: 'A modern real estate listing platform with secure uploads and advanced filters.',
-        image: 'public/house hunt.png',
+        image: '/house hunt.png',
         github: 'https://github.com/Vadlayugendraachari/Househunt',
         demo: '#',
     },
