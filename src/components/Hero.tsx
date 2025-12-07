@@ -35,7 +35,7 @@ export const Hero = () => {
                     className="relative"
                 >
                     <div className="aspect-square rounded-3xl overflow-hidden card">
-                        <img src="/yugi photo.jpeg" alt="Yugendra portrait" className="w-full h-full object-cover" />
+                        <img src="/yugi photofolio photo.jpeg" alt="Yugendra portrait" className="w-full h-full object-cover" />
                     </div>
                     <div className="absolute -z-10 inset-0 bg-gradient-to-tr from-primary-600/20 to-fuchsia-600/20 blur-3xl rounded-3xl"></div>
                 </motion.div>

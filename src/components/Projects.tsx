@@ -24,7 +24,7 @@ const projects = [
         stack: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'TypeScript'],
         description:
             'A top-tier personal portfolio with dark/light mode, smooth scroll, glassmorphism UI, and animated sections.',
-        image: '/yugi portfolio.png',
+        image: '/yugi photofolio.png',
         github: 'https://github.com/Vadlayugendraachari/Vadla-Yugendra-Achari---Personal-Portfolio',
         demo: '#',
     },

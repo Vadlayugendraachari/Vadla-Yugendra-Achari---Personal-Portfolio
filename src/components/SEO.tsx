@@ -3,7 +3,8 @@ import { Helmet } from 'react-helmet'
 export const SEO = () => (
     <Helmet>
         <title>Vadla Yugendra Achari | Frontend Developer</title>
-        <meta name="description" content="Full Stack Developer – Python & MERN. Projects: Community Forum, Househunt. Research at IIT Dharwad." />
+        <meta name="description" content="Vadla Yugendra Achari's personal portfolio website showcasing skills, projects, and contact information." />
     </Helmet>
 )
 
+export default SEO  
