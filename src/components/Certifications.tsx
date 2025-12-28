@@ -17,7 +17,7 @@ const certs: Cert[] = [
     {
         name: 'Open FPGA Tools Exploration',
         issuer: 'IIT Dharwad',
-        proofUrl: 'https://drive.google.com/file/d/1d88rzY17sEZBY8ldzPX1LRlbCZIB5EHp/view?usp=drivesdk',
+        proofUrl: 'https://drive.google.com/file/d/1d88rzY17sEZBY8ldzPX1LRlbCZIB5EHp/preview',
     },
 ]
 

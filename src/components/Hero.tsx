@@ -22,7 +22,7 @@ export const Hero = () => {
                     </p>
                     <div className="mt-6 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center md:justify-start">
                         <a
-                            href="https://drive.google.com/file/d/1oKsF8bDcCSCkeoCNpeCF70g2w4n3qJHJ/view?usp=drivesdk"
+                            href="https://drive.google.com/file/d/1YqZMJ8bGm1oKWRoX8SRCMQRbNcGV4s1i/view?usp=sharing"
                             target="_blank"
                             rel="noreferrer"
                             className="btn-primary w-full sm:w-auto justify-center"
